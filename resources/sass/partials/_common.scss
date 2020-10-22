@@ -1,0 +1,74 @@
+.card{
+  box-shadow: 5px 5px lightgray;
+  .card-img-top{
+    border-radius: 25px 25px 0 0 !important;
+    height: 250px;
+
+  }
+  p {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  border-radius: 25px !important;
+}
+
+.cs-btn{
+  background-color: $accent !important;
+  color: white !important;
+  font-weight: bold;
+
+  &:hover{
+    transition: 0.2s;
+    transform: scale(1.05);
+  }
+}
+
+.cs-btn-delete{
+  background-color: $delete-btn !important;
+}
+
+.cs-btn-login{
+  background-color: $accent !important;
+  color: white !important;
+  font-weight: bold;
+
+  &:hover{
+    transition: 0.2s;
+    background-color: $accent_dark;
+  }
+}
+
+.cs-btn-sec{
+  margin-left: 20px;
+  background-color: white;
+  color: $accent !important;
+  font-weight: bold;
+  border: 1px solid $sub_color;
+
+
+  &:hover{
+    transition: 0.2s;
+    background-color: #F7F7F7;
+  }
+}
+
+.cs-input{
+
+  i{
+    font-size: 20px;
+    padding: 10px;
+  }
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.cs-address{
+  font-size: 13px;
+}

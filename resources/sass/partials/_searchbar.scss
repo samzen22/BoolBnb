@@ -1,0 +1,31 @@
+.cs-input{
+
+  width: 80%;
+  margin: 0 auto;
+
+
+  input{
+    padding: 25px;
+    border-radius: 50px;
+  }
+
+  .cs-btn-search{
+
+    height: 50px;
+    // width: 50px;
+    border-radius: 50%;
+    border: none;
+
+    &:hover{
+      transition: 0.2s;
+    }
+
+    a {
+      color: white;
+
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+}

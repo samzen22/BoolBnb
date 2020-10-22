@@ -1,0 +1,58 @@
+footer{
+
+  padding: 50px 0;
+
+  .cs-top-footer{
+
+    ul{
+
+      li{
+        margin-top: 2px;
+        margin-left: 3px;
+
+        @media screen and (max-width: 576px) {
+          text-align: center !important;
+        }
+
+      .footer-title{
+        font-size: 10px;
+      }
+
+        a{
+          color: $sub_color;
+          text-decoration: none;
+
+          &:hover{
+            transition: 0.2s;
+            color: $sub_color_hover;
+            text-decoration: none;
+          }
+        }
+
+        h6{
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .cs-bottom-footer{
+
+    i{
+      margin-left: 10px;
+      font-size: 20px;
+      color: $sub_color;
+
+      &:hover{
+        transition: 0.2s;
+        color: $sub_color_hover;
+        text-decoration: none;
+      }
+    }
+
+    .cs-legal{
+      color:$sub_color_hover;
+    }
+
+  }
+}

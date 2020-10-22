@@ -1,0 +1,136 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Variables
+@import 'partials/variables';
+
+// Common
+@import 'partials/common';
+
+// Navbar
+@import 'partials/navbar';
+@import 'partials/footer';
+
+// SearchBar
+@import 'partials/searchbar';
+
+// Search Page
+@import 'partials/search-page';
+
+// create
+@import 'partials/create';
+
+// show
+@import 'partials/show';
+
+// dashboard
+@import 'partials/dashboard';
+
+body{
+  font-family: "Futura", sans-serif;
+  background-color: rgba(252, 238, 202, 0.5);
+}
+
+// .cs-hero{
+//   background-size: cover;
+// }
+
+nav{
+  background-color: white !important;
+
+  #logo{
+    height: 30px;
+  }
+
+  a{
+    color: $main_color !important;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    letter-spacing: -0.6px;
+  }
+
+  .dropdown-item{
+    color: black !important;
+  }
+}
+
+main{
+  #jumbo {
+
+    background-image: url("/asset/img/arredamento.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .layer {
+      width: 100%;
+      height: 100%;
+      background-color:rgba(0, 0, 0, 0.4);
+
+      .height-center {
+        padding-top: 35vh;
+
+      }
+    }
+  }
+  .cs-space{
+    padding: 10vh 0;
+  }
+
+  .cs-search{
+    // padding: 30vh 0;
+    height: 85vh;
+
+    h1{
+      font-weight: bold;
+      margin: 50px 0;
+      color:papayawhip;
+    }
+
+  }
+
+  .cs-sponsored{
+    background-color: $sponsored;
+    padding: 40px 0;
+
+    h3{
+      color: $sponsored_text;
+      margin: 20px 0;
+      text-transform: uppercase;
+    }
+
+    .row{
+      margin: 50px 0;
+      flex-wrap: nowrap;
+    }
+  }
+
+  .cs-apartment{
+    padding: 10vh 0;
+  }
+
+  .cs-back{
+    a{
+      color: $sub_color_hover;
+      &:hover{
+        text-decoration: none;
+
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1199.98px) {
+  main {
+    .cs-sponsored {
+      .row {
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+ }

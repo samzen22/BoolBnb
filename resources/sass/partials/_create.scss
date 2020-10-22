@@ -1,0 +1,17 @@
+.form-line{
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .chekboxes.form-line{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .form-line{
+    display: block;
+  }
+}

@@ -1,0 +1,121 @@
+.cs-search-input{
+
+  .cs-city{
+    padding: 25px;
+    border-radius: 50px;
+  }
+
+  .cs-btn-search{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+
+    &:hover{
+      transition: 0.2s;
+    }
+
+    a {
+      color: white;
+
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+  .cs-filters{
+    .col-sm-6 {
+      max-width: 100%;
+    }
+
+    .row{
+      margin: 10px 0;
+
+
+    }
+
+    select,input {
+      border: none;
+      border-bottom: 1px solid $sub_color_hover;
+    }
+
+    .cs-sec-input{
+      input{
+        min-width: 200px;
+      }
+    }
+
+    .cs-single-service{
+      margin-top: 5px;
+
+      label {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+#filters{
+  cursor: pointer;
+  // transition: all 2s ease;
+
+  #arrow{
+    padding-left: 5px;
+  }
+
+  &:hover{
+
+    #arrow{
+      padding-left: 10px;
+      transition: 0.2s ease;
+    }
+  }
+}
+
+.cs-search-promo {
+  margin: 20px 0;
+
+  .row {
+    margin: 0;
+  }
+
+  .col-12 {
+    padding: 0;
+  }
+
+  #apartment_list_promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $sponsored;
+  }
+}
+
+#mapid {
+  width: 100%;
+  height: 1200px;
+  border-radius: 20px;
+  box-shadow: 5px 5px lightgray;
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    margin: auto;
+  }
+   #mapid {
+     // display: none;
+     height: 300px;
+     display: block;
+   }
+   .cs-sec-input {
+     margin-top: 5px;
+   }
+ }
+
+ @media (max-width: 1199.98px) {
+   #apartment_list_promo {
+     flex-wrap: wrap;
+   }
+
+  }
